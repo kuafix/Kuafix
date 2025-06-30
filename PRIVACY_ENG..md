@@ -1,16 +1,16 @@
 # KUAFIX MOBILE APPLICATION PRIVACY POLICY
 
-**Last Updated:** May 26, 2025
+**Last Updated:** June 30, 2025
 
 ---
 
-### 1. Introduction and Purpose
+## 1. INTRODUCTION AND PURPOSE
 
 Thank you for using the Kuafix mobile application (“Application”). This Privacy Policy (“Policy”) explains how your personal data is collected, used, shared, and protected when using the Kuafix Application, developed by Mehmet Hilmi Anber. Our aim is to be transparent about our data privacy practices. This Policy has been prepared in accordance with all relevant legislation, primarily the Law on the Protection of Personal Data (KVKK).
 
 ---
 
-### 2. Definitions
+## 2. DEFINITIONS
 
 Unless otherwise expressly stated, the following terms in this Policy have the meanings defined in Article 3 of the Law on the Protection of Personal Data (KVKK):
 
@@ -23,27 +23,32 @@ Unless otherwise expressly stated, the following terms in this Policy have the m
 
 ---
 
-### 3. What Personal Data Do We Collect and Why?
+## 3. WHAT PERSONAL DATA DO WE COLLECT AND WHY?
 
 The following categories of personal data are processed in connection with the Application:
 
-#### 3.1. Identity and Contact Information
-- **Data Collected:** First name, Last name, Phone number
-- **Purpose:** To create a membership account, verify identity (via Firebase Authentication), carry out appointment operations, communicate between users, and send in-app notifications.
+### 3.1. IDENTITY AND CONTACT INFORMATION
 
-#### 3.2. Barber Information (For Barber Users Only)
-- **Data Collected:** Business name (shop name), city, district, address, appointment slot duration, working hours, weekly days off, special days off, maximum advance booking days.
+- **Data Collected:** First name, Last name, Phone number, City/Province
+- **Purpose:** To create a membership account, verify identity (via Firebase Authentication), carry out appointment operations, communicate, send in-app notifications, provide location-based services, and enable city-based matching between users.
+
+### 3.2. BARBER INFORMATION (FOR BARBER USERS ONLY)
+
+- **Data Collected:** Business name (shop name), city/province, district, address, appointment slot duration, working hours, weekly days off, special days off, maximum advance booking days.
 - **Purpose:** To create and manage barber profiles, enable customer search, manage barber calendars and availability, and provide a dynamic appointment system.
 
-#### 3.3. Appointment Information
-- **Data Collected:** Appointment date and time, customer name, customer phone number, barber name, barber phone number (optional), barber ID, appointment note (optional), barber shop name, city, district.
+### 3.3. APPOINTMENT INFORMATION
+
+- **Data Collected:** Appointment date and time, customer name, customer phone number, customer city/province, barber name, barber phone number (optional), barber ID, appointment note (optional), barber shop name, barber city/province, district.
 - **Purpose:** To facilitate appointment booking and management, allow both parties to view upcoming/past appointments, prevent conflicts, and send reminders and cancellation notifications.
 
-#### 3.4. Device and Access Data (for Push Notifications)
-- **Data Collected:** Firebase Cloud Messaging (FCM) Token
-- **Purpose:** To send push notifications to your device (appointment reminders, new customer notifications, next-day lists, etc.).
+### 3.4. DEVICE AND ACCESS DATA (FOR PUSH NOTIFICATIONS)
 
-#### 3.5. Preference Data
+- **Data Collected:** Firebase Cloud Messaging (FCM) Token
+- **Purpose:** To send push notifications to your device (appointment reminders, new customer notifications, etc.).
+
+### 3.5. PREFERENCE DATA
+
 - **Data Collected:** Notification settings, favorite barbers list.
 - **Purpose:** To personalize your experience and manage notifications according to your preferences.
 
@@ -51,68 +56,63 @@ The following categories of personal data are processed in connection with the A
 
 ---
 
-### 4. How Do We Collect Personal Data?
+## 4. HOW DO WE COLLECT PERSONAL DATA?
 
-#### 4.1. Data Provided Directly by You
-- During registration, profile updates, appointment booking, and when you adjust settings.
+### 4.1. DATA PROVIDED DIRECTLY BY YOU
 
-#### 4.2. Data Collected Automatically
-- When you use the Application, certain data such as your device’s unique FCM token is collected automatically for notification services.
+During registration, profile updates, appointment booking, and when you adjust settings.
 
----
+### 4.2. DATA COLLECTED AUTOMATICALLY
 
-### 5. With Whom Do We Share Personal Data?
-
-#### 5.1. Application Developer (Data Controller)
-- Your data is processed by Mehmet Hilmi Anber for management, technical support, and service quality improvement purposes.
-
-#### 5.2. Service Providers (Data Processors)
-- **Firebase (Google LLC):** For authentication, database storage, and notification services, your data is processed on Firebase servers located in the United States, Iowa - us-central1 region. Firebase has its own privacy policy and security measures.  
-  [Firebase Privacy](https://firebase.google.com/support/privacy)
-
-#### 5.3. Among Application Users (Customer <-> Barber)
-- Only information necessary for appointments (name, time, etc.) is shared with the relevant party. Phone numbers are shared only for appointment and communication purposes.
-
-#### 5.4. Official Authorities and Institutions
-- If required by law, your data may be shared with authorized institutions in accordance with legal regulations.
+When you use the Application, certain data such as your device’s unique FCM token is collected automatically for notification services.
 
 ---
 
-### 6. Retention Period of Personal Data
+## 5. WITH WHOM DO WE SHARE PERSONAL DATA?
 
-- Your personal data is securely stored for as long as you actively use the Application and as required for processing purposes.
-- **Account Deletion:** When you delete your account, all personal data is permanently and immediately deleted. However, due to technical reasons, your data may remain in backup systems or logs for up to 7 days, after which it is automatically and completely destroyed. During this period, your data is never processed or used for any other purpose.
+### 5.1. APPLICATION DEVELOPER (DATA CONTROLLER)
 
----
+Your data is processed by Mehmet Hilmi Anber for management, technical support, and service quality improvement purposes.
 
-### 7. Data Subject Rights (KVKK Article 11)
+### 5.2. SERVICE PROVIDERS (DATA PROCESSORS)
 
-You have the following rights regarding your personal data (summarized for clarity):
-- To learn whether your personal data is processed,
-- To request information if your personal data has been processed,
-- To learn the purpose of processing and whether it is used accordingly,
-- To know the third parties to whom your data is transferred domestically or abroad,
-- To request correction if your data is incomplete or incorrect,
-- To request deletion or destruction of your data within the framework of Article 7 (right to be forgotten),
-- To request notification of actions taken to third parties to whom your data has been transferred,
-- To object to any result arising against you through automated processing,
-- To request compensation if you suffer damage due to unlawful processing.
+**Firebase (Google LLC):** For authentication, database storage, and notification services, your data is processed on Firebase servers located in the United States, Iowa - us-central1 region. Firebase has its own privacy policy and security measures.  
+[Firebase Privacy](https://firebase.google.com/support/privacy)
 
----
+### 5.3. AMONG APPLICATION USERS (CUSTOMER <-> BARBER)
 
-### 8. Data Security
+Only information necessary for appointments (name, city/province, appointment time, etc.) is shared with the relevant party. Phone numbers are shared only for appointment and communication purposes.
 
-- Your personal data is protected using advanced Firebase security infrastructure, access controls, authentication mechanisms, and regular audits.
-- **In the Event of a Data Breach:** In the event of a security breach involving your personal data, you and the relevant authorities will be notified without delay as required by KVKK and related legislation.
+### 5.4. OFFICIAL AUTHORITIES AND INSTITUTIONS
+
+If required by law, your data may be shared with authorized institutions in accordance with legal regulations.
 
 ---
 
-### 9. Changes and Contact
+## 6. RETENTION PERIOD OF PERSONAL DATA
 
-- Policy changes will be announced through the Application or other appropriate channels. If you do not accept the updated Policy, you may delete your account and terminate data processing.
-- To exercise your rights or for information:
-  - **Email:** destek.kuafix@gmail.com
-  - **Online Support:** https://github.com/kuafix/Kuafix  
-    (The Github page is for written support requests. For a smoother user experience, email support is recommended.)
+Your personal data is securely stored for as long as you actively use the Application and as required for processing purposes.  
+**Account Deletion:** When you delete your account, all personal data is permanently and immediately deleted. However, due to technical reasons, your data may remain in backup systems or logs for up to 7 days, after which it is automatically and completely destroyed. During this period, your data is never processed or used for any other purpose.
 
 ---
+
+## 7. DATA SUBJECT RIGHTS (KVKK ARTICLE 11)
+
+(Summarized: You have the right to access, request information, request correction or deletion, object to processing, and seek compensation for damages as set out in Article 11 of the KVKK.)
+
+---
+
+## 8. DATA SECURITY
+
+Your personal data is protected using advanced Firebase security infrastructure, access controls, authentication mechanisms, and regular audits.  
+**In the Event of a Data Breach:** In the event of a security breach involving your personal data, you and the relevant authorities will be notified without delay as required by KVKK and related legislation.
+
+---
+
+## 9. CHANGES AND CONTACT
+
+Policy changes will be announced through the Application or other appropriate channels. If you do not accept the updated Policy, you may delete your account and terminate data processing.  
+To exercise your rights or for information:  
+- **Email:** destek.kuafix@gmail.com  
+- **Online Support:** https://github.com/kuafix/Kuafix  
+(The Github page is for written support requests. For a smoother user experience, email support is recommended.)
