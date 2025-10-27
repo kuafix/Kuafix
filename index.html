@@ -1,14 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <title>Kuafix</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuafix – Belgeler</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-image: url('kfx_bg_light.png'); /* Arka plan resmi */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #222;
+      text-align: center;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.75); /* Hafif beyaz saydam katman */
+      padding: 50px 80px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(5px);
+    }
+
+    h1 {
+      color: #003366;
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 12px 0;
+    }
+
+    a {
+      font-size: 18px;
+      color: #0055aa;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: #0077ff;
+      text-decoration: underline;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 14px;
+      color: #444;
+      background-color: rgba(255,255,255,0.6);
+      padding: 8px 16px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Kuafix – Belgeler</h1>
-  <ul>
-    <li><a href="privacy.html">Gizlilik Politikası</a></li>
-    <li><a href="delete.html">Hesap Silme</a></li>
-  </ul>
+
+  <div class="overlay">
+    <h1>Kuafix – Belgeler</h1>
+    <ul>
+      <li><a href="privacy.html">Gizlilik Politikası</a></li>
+      <li><a href="delete.html">Hesap Silme</a></li>
+      <li><a href="terms.html">Kullanım Koşulları (EULA)</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    © 2025 Kuafix – AnberTech Yazılım | <a href="mailto:destek.kuafix@gmail.com">Destek</a>
+  </footer>
+
 </body>
 </html>
+
