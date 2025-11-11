@@ -66,18 +66,17 @@
   <footer>
   © 2025 Kuafix – AnberTech
   <span id="pv" style="margin-left:8px;color:#999">#</span>
+
   <script>
-    // "kuafix-support" bu sayfa için benzersiz anahtar; diğerlerinde değiştir.
-    (function() {
-      var url = "https://api.countapi.xyz/hit/kuafix-pages/support";
-      function show(n) { document.getElementById('pv').textContent = '#' + n; }
-      fetch(url)
-        .then(res => res.json())
-        .then(data => show(data.value))
-        .catch(() => show('?'));
-    })();
+    function updateCounter(resp){
+      // resp = { value: <toplam_sayım> }
+      var el = document.getElementById('pv');
+      el.textContent = resp && typeof resp.value === 'number' ? ('#' + resp.value) : '#?';
+    }
   </script>
+  <script async src="https://api.countapi.xyz/hit/kuafix-pages/support?callback=updateCounter"></script>
 </footer>
+
 
 
 </body>
