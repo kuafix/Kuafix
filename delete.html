@@ -24,10 +24,11 @@
       background-color: rgba(0, 0, 0, 0.85);
       max-width: 800px;
       margin: 50px auto;
-      padding: 40px;
+      padding: 35px 40px; /* İç padding biraz küçültüldü */
       border-radius: 15px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
       text-align: left;
+      box-sizing: border-box;
     }
 
     h1 {
@@ -70,6 +71,23 @@
       font-size: 14px;
       margin-bottom: 30px;
     }
+
+    /* 📱 Mobil düzenleme */
+    @media (max-width: 768px) {
+      .content {
+        margin: 20px 8px;   /* Üst-alt 20px, sağ-sol 8px */
+        padding: 25px 20px; /* İçerik kenara daha yakın */
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      footer {
+        margin: 20px 12px;
+        font-size: 13px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -85,9 +103,14 @@
       <li>Cihazınıza ait bildirim bilgileri (FCM token) silinir.</li>
     </ul>
 
-    <p>Silme işlemi anında gerçekleşir. Teknik nedenlerle yedekleme sistemlerinde en fazla <strong>7 gün</strong> daha saklanabilir, bu sürenin sonunda tamamen yok edilir.</p>
+    <p>
+      Silme işlemi anında gerçekleşir.  
+      Teknik nedenlerle yedekleme sistemlerinde en fazla
+      <strong>7 gün</strong> daha saklanabilir, bu sürenin sonunda tamamen yok edilir.
+    </p>
 
-    <p>Herhangi bir sorunuz için bizimle iletişime geçebilirsiniz:  
+    <p>
+      Herhangi bir sorunuz için bizimle iletişime geçebilirsiniz:  
       <a href="mailto:destek.kuafix@gmail.com">destek.kuafix@gmail.com</a>
     </p>
   </div>
