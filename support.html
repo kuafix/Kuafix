@@ -22,9 +22,11 @@
       background-color: rgba(0, 0, 0, 0.85);
       max-width: 700px;
       margin: 80px auto;
-      padding: 40px 50px;
+      padding: 35px 40px; /* İç padding küçültüldü */
       border-radius: 15px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      box-sizing: border-box;
+      text-align: center;
     }
 
     h1 {
@@ -53,6 +55,23 @@
       font-size: 14px;
       margin-bottom: 30px;
     }
+
+    /* 📱 Mobil düzenleme */
+    @media (max-width: 768px) {
+      .content {
+        margin: 20px 8px;   /* Üst-alt 20px, sağ-sol 8px */
+        padding: 25px 20px; /* İçerik mobilde daha dar */
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      footer {
+        margin: 20px 12px;
+        font-size: 13px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -66,8 +85,6 @@
   <footer>
     © 2025 Kuafix – AnberTech
   </footer>
-
-
 
 </body>
 </html>
