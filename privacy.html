@@ -24,10 +24,11 @@
       background-color: rgba(0, 0, 0, 0.85);
       max-width: 900px;
       margin: 50px auto;
-      padding: 40px 50px;
+      padding: 35px 40px;  /* ↔ İç padding küçültüldü */
       border-radius: 15px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
       text-align: left;
+      box-sizing: border-box;
     }
 
     h1 {
@@ -80,6 +81,23 @@
       color: #ccc;
       font-size: 14px;
       margin-bottom: 30px;
+    }
+
+    /* 📱 Mobil düzenleme */
+    @media (max-width: 768px) {
+      .content {
+        margin: 30px 20px;   /* ↔ kenarlara boşluk */
+        padding: 25px 20px;  /* ↔ içerik mobilde daha dar */
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      footer {
+        margin: 20px 12px;
+        font-size: 13px;
+      }
     }
   </style>
 </head>
