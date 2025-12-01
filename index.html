@@ -28,6 +28,7 @@
       border-radius: 15px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
       backdrop-filter: blur(5px);
+      box-sizing: border-box;
     }
 
     h1 {
@@ -67,6 +68,20 @@
       padding: 8px 16px;
       border-radius: 10px;
     }
+
+    /* Mobilde overlay kutusunun kenarlara yapışmaması için */
+    @media (max-width: 768px) {
+      .overlay {
+        margin: 0 20px;      /* Sağ–sol boşluk */
+        padding: 30px 24px;  /* İç boşluk mobilde daha dengeli */
+      }
+
+      footer {
+        bottom: 10px;        /* Mobilde biraz yukarı al */
+        padding: 6px 12px;
+        margin: 0 12px;      /* Yanlarda taşma olmasın */
+      }
+    }
   </style>
 </head>
 <body>
@@ -87,4 +102,3 @@
 
 </body>
 </html>
-
